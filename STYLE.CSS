@@ -1,0 +1,108 @@
+body{
+    margin: 0; padding: 0;
+    font-family: 'PT Serif', serif;;
+}
+.header-section{
+    display: flex;
+    padding: 7%;
+    background: url(images/wave.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 50%;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+span{
+    color: rgb(221, 203, 6);
+}
+h2{
+    color: rgb(198, 195, 5);
+}
+
+.half-width h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.half-width h2{
+    font-size: 40px;
+}
+.half-width h5{
+    color: aliceblue;
+    font-size: 20px;
+}
+.link{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(blue,rgb(162, 0, 255));
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+.link:hover{
+    box-shadow: 10px 5px 20px black;
+}
+.about-section{
+    display: flex;
+    padding: 7%;
+}
+.half-width h2{
+    color: black;
+
+}
+.half-width p{
+    color: rgb(22, 21, 21);
+    padding-bottom: 10px;
+}
+.about-img{
+    border-radius: 50%;
+    width: 80%;
+}
+.specializing-text{
+    text-align: center;
+    padding: 0% 30%;
+}
+.specializing-text h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+.specializing-text p{
+    font-size:18px;
+    
+}
+.parent{
+    display: flex;
+    padding: 8%;
+}
+.child h4{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.child{
+    box-shadow: 10px 5px 30px black;
+    padding: 20px 30px;
+    margin: 50px;
+    height: 270px;
+    border-radius: 0px 30px 80px 0px;
+    border-left: 8px solid;
+    border-image: linear-gradient(rgba(0, 161, 214, 0.57), #1500ff) 0 100%;
+    transition: all 0.8s ease;
+    
+}
+
+.child:hover{
+    background-image: linear-gradient(rgba(0, 255, 234, 0.671),rgba(8, 168, 208, 0.78));
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 56, 0.663);
+}
